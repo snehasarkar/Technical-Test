@@ -1,6 +1,3 @@
-
-# coding: utf-8
-
 # # To Convert a camelCase form into a user-friendly field name.
 
 # In[1]:
