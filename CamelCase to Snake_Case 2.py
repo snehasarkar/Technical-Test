@@ -25,7 +25,7 @@ def getter(text):
     while pos < len(string): 
     #checks if the alphabet is in upper case
         if string[pos].isupper():
-                if pos-1 > 0 and string[pos-1].islower() or pos-1 > 0 and                    pos+1 < len(string) and string[pos+1].islower():
+                if pos-1 > 0 and string[pos-1].islower() or pos-1 > 0 and pos+1 < len(string) and string[pos+1].islower():
                     result.append("_%s" % string[pos])
                 else:
                     result.append(string[pos])
